@@ -102,6 +102,14 @@ public class CrystalScript : MonoBehaviour
         // create lightning
         lightningScript.Trigger();
 
+        // play sound
+        var audioSource = this.lightningPrefab.GetComponent<AudioSource>();
+        // set position to this crystal
+        audioSource.transform.position = this.parent.transform.position;
+
+        // sound currently disabled
+        //audioSource.Play();
+
 
 
 
