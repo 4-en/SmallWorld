@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DigitalRuby.LightningBolt;
+using UnityEngine.Rendering.HighDefinition;
 
 public class CrystalScript : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class CrystalScript : MonoBehaviour
     public bool randomColor = true;
 
     private float charge = 0.0f;
-    private Light lightComp;
+    private HDAdditionalLightData lightComp;
     GameObject parent;
     GameObject lightGameObject;
 
@@ -52,7 +53,7 @@ public class CrystalScript : MonoBehaviour
 
         // Create new point light and set it as a child of the parent object
         this.lightGameObject = new GameObject("Crystal Light");
-        this.lightComp = lightGameObject.AddComponent<Light>();
+        this.lightComp = lightGameObject.AddHDLight(HDLightTypeAndShape.Point);
         lightComp.color = color;
         lightComp.intensity = intensity;
         lightComp.range = range;
@@ -62,7 +63,7 @@ public class CrystalScript : MonoBehaviour
         lightGameObject.transform.localScale = new Vector3(1, 1, 1);
 
         // soft shadows
-        lightComp.shadows = LightShadows.Soft;
+        //lightComp.shadows = LightShadows.Soft;
 
         // add to list of crystals
         crystals.Add(this.parent);
