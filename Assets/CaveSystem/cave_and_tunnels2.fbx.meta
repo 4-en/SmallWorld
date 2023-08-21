@@ -1,74 +1,9 @@
 fileFormatVersion: 2
-guid: 73df03954b55fa84daf5e1e3cf53f20c
+guid: 7b5101ea727c75b4d9e7edbdd715007f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LimeMaterial
-    second: {fileID: 2100000, guid: ab4b9199afe5bef46ad932e6e2ba98ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RockMatCave2
-    second: {fileID: 2100000, guid: 628534e281e550340a50ba13aa6217cb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RockTexture
-    second: {fileID: 2100000, guid: 3b666342c39394b4a893f3650875ad37, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RockTexture2
-    second: {fileID: 2100000, guid: 892510538902c7c4689f30c056972de0, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock028_4K_Color
-    second: {fileID: 2800000, guid: fa38f78267cdf344ea9e1d1500d2b792, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock028_4K_NormalDX
-    second: {fileID: 2800000, guid: 08941040709d39545aa978ecda847815, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock028_4K_Roughness
-    second: {fileID: 2800000, guid: fcc856bf234ce48468e8bf07722eef6d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock031_4K_Color
-    second: {fileID: 2800000, guid: 338364e5e0d771e4791b07aa9fc3a84e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock031_4K_NormalDX
-    second: {fileID: 2800000, guid: b1c18d36c2c78654b8bb3c8641af4654, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rock031_4K_Roughness
-    second: {fileID: 2800000, guid: 47782b956103cc3458db1a959f94d9c2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: blacckrock-roughness
-    second: {fileID: 2800000, guid: ba89aa55be176cb498965c17538d8487, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: blackrock-albedo
-    second: {fileID: 2800000, guid: 8984fe9efb4630a4789c48f9cef3c706, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: warme-kalkstein-textur
-    second: {fileID: 2800000, guid: 9fc329af8867ab54b8f2e7e4828b6932, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
