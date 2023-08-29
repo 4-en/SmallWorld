@@ -203,7 +203,7 @@ public class CrystalScript : MonoBehaviour
         float dist = Vector3.Distance(playerObject.transform.position, endObject.transform.position);
         if (dist < 3.0f)
         {
-            this.shootPlayer();
+            //this.shootPlayer();
         }
 
         // random charge
